@@ -13,7 +13,9 @@ public class ToolItemSO : ItemSO
 
     public override TypeItem GetTypeEnum()
     {
-        return TypeItem.CraftingMaterial;
+        // fix in production, misscopy Type
+        //return TypeItem.CraftingMaterial;
+        return TypeItem.Tool;
     }
 
     public override Type GetTypeItemUIPack()
